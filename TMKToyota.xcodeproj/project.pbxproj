@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F733351C01F9CC00EA1A1D /* DealersList+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F733321C01F9CC00EA1A1D /* DealersList+CoreDataProperties.m */; };
+		04F733361C01F9CC00EA1A1D /* DealersList.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F733341C01F9CC00EA1A1D /* DealersList.m */; };
+		04F7333A1C02380500EA1A1D /* TKMActivitiIndicater.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F733391C02380500EA1A1D /* TKMActivitiIndicater.m */; };
+		04F733401C0310CC00EA1A1D /* TKMDealerDetailCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F7333F1C0310CC00EA1A1D /* TKMDealerDetailCustomCell.m */; };
+		8D9B8D361BFEF33300743A4A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B8D351BFEF33300743A4A /* Reachability.m */; };
+		8D9B8D3A1BFEFBE100743A4A /* Uitility.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9B8D391BFEFBE100743A4A /* Uitility.m */; };
+		8DA4777E1BFE3944006DCFCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA4777D1BFE3944006DCFCC /* main.m */; };
+		8DA477811BFE3944006DCFCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477801BFE3944006DCFCC /* AppDelegate.m */; };
+		8DA477841BFE3944006DCFCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477831BFE3944006DCFCC /* ViewController.m */; };
+		8DA477871BFE3944006DCFCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA477851BFE3944006DCFCC /* Main.storyboard */; };
+		8DA4778A1BFE3944006DCFCC /* TMKToyota.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477881BFE3944006DCFCC /* TMKToyota.xcdatamodeld */; };
+		8DA4778C1BFE3944006DCFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4778B1BFE3944006DCFCC /* Assets.xcassets */; };
+		8DA4778F1BFE3944006DCFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA4778D1BFE3944006DCFCC /* LaunchScreen.storyboard */; };
+		8DA4779A1BFE3944006DCFCC /* TMKToyotaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477991BFE3944006DCFCC /* TMKToyotaTests.m */; };
+		8DA477AB1BFE3A4C006DCFCC /* TMKWebserviceHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477AA1BFE3A4C006DCFCC /* TMKWebserviceHandler.m */; };
+		8DA477AE1BFE55FA006DCFCC /* ContactToyotaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477AD1BFE55FA006DCFCC /* ContactToyotaViewController.m */; };
+		8DA477B11BFECDD1006DCFCC /* TKMDealearDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DA477B01BFECDD1006DCFCC /* TKMDealearDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA477961BFE3944006DCFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA477711BFE3944006DCFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA477781BFE3944006DCFCC;
+			remoteInfo = TMKToyota;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F733311C01F9CC00EA1A1D /* DealersList+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DealersList+CoreDataProperties.h"; sourceTree = "<group>"; };
+		04F733321C01F9CC00EA1A1D /* DealersList+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DealersList+CoreDataProperties.m"; sourceTree = "<group>"; };
+		04F733331C01F9CC00EA1A1D /* DealersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DealersList.h; sourceTree = "<group>"; };
+		04F733341C01F9CC00EA1A1D /* DealersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DealersList.m; sourceTree = "<group>"; };
+		04F733381C02380500EA1A1D /* TKMActivitiIndicater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMActivitiIndicater.h; sourceTree = "<group>"; };
+		04F733391C02380500EA1A1D /* TKMActivitiIndicater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMActivitiIndicater.m; sourceTree = "<group>"; };
+		04F7333E1C0310CC00EA1A1D /* TKMDealerDetailCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMDealerDetailCustomCell.h; sourceTree = "<group>"; };
+		04F7333F1C0310CC00EA1A1D /* TKMDealerDetailCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMDealerDetailCustomCell.m; sourceTree = "<group>"; };
+		8D9B8D341BFEF33300743A4A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8D9B8D351BFEF33300743A4A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8D9B8D381BFEFBE100743A4A /* Uitility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Uitility.h; sourceTree = "<group>"; };
+		8D9B8D391BFEFBE100743A4A /* Uitility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Uitility.m; sourceTree = "<group>"; };
+		8DA477791BFE3944006DCFCC /* TMKToyota.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMKToyota.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA4777D1BFE3944006DCFCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8DA4777F1BFE3944006DCFCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8DA477801BFE3944006DCFCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8DA477821BFE3944006DCFCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8DA477831BFE3944006DCFCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8DA477861BFE3944006DCFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA477891BFE3944006DCFCC /* TMKToyota.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TMKToyota.xcdatamodel; sourceTree = "<group>"; };
+		8DA4778B1BFE3944006DCFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA4778E1BFE3944006DCFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA477901BFE3944006DCFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA477951BFE3944006DCFCC /* TMKToyotaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMKToyotaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA477991BFE3944006DCFCC /* TMKToyotaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMKToyotaTests.m; sourceTree = "<group>"; };
+		8DA4779B1BFE3944006DCFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA477A41BFE3991006DCFCC /* WebserviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebserviceList.h; sourceTree = "<group>"; };
+		8DA477A91BFE3A4C006DCFCC /* TMKWebserviceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMKWebserviceHandler.h; sourceTree = "<group>"; };
+		8DA477AA1BFE3A4C006DCFCC /* TMKWebserviceHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMKWebserviceHandler.m; sourceTree = "<group>"; };
+		8DA477AC1BFE55FA006DCFCC /* ContactToyotaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactToyotaViewController.h; sourceTree = "<group>"; };
+		8DA477AD1BFE55FA006DCFCC /* ContactToyotaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactToyotaViewController.m; sourceTree = "<group>"; };
+		8DA477AF1BFECDD1006DCFCC /* TKMDealearDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKMDealearDetailViewController.h; sourceTree = "<group>"; };
+		8DA477B01BFECDD1006DCFCC /* TKMDealearDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKMDealearDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA477761BFE3944006DCFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA477921BFE3944006DCFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F733371C02378C00EA1A1D /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				04F733311C01F9CC00EA1A1D /* DealersList+CoreDataProperties.h */,
+				04F733321C01F9CC00EA1A1D /* DealersList+CoreDataProperties.m */,
+				04F733331C01F9CC00EA1A1D /* DealersList.h */,
+				04F733341C01F9CC00EA1A1D /* DealersList.m */,
+				8DA477881BFE3944006DCFCC /* TMKToyota.xcdatamodeld */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		04F7333B1C02380F00EA1A1D /* ActvitiIncicater */ = {
+			isa = PBXGroup;
+			children = (
+				04F733381C02380500EA1A1D /* TKMActivitiIndicater.h */,
+				04F733391C02380500EA1A1D /* TKMActivitiIndicater.m */,
+			);
+			name = ActvitiIncicater;
+			sourceTree = "<group>";
+		};
+		04F7333C1C02386500EA1A1D /* WebServicesList */ = {
+			isa = PBXGroup;
+			children = (
+				8DA477A41BFE3991006DCFCC /* WebserviceList.h */,
+			);
+			name = WebServicesList;
+			sourceTree = "<group>";
+		};
+		04F7333D1C03108F00EA1A1D /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				04F7333E1C0310CC00EA1A1D /* TKMDealerDetailCustomCell.h */,
+				04F7333F1C0310CC00EA1A1D /* TKMDealerDetailCustomCell.m */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+		8D9B8D331BFEF13F00743A4A /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B8D341BFEF33300743A4A /* Reachability.h */,
+				8D9B8D351BFEF33300743A4A /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		8D9B8D371BFEF34000743A4A /* TKMNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				8DA477A91BFE3A4C006DCFCC /* TMKWebserviceHandler.h */,
+				8DA477AA1BFE3A4C006DCFCC /* TMKWebserviceHandler.m */,
+			);
+			name = TKMNetworking;
+			sourceTree = "<group>";
+		};
+		8DA477701BFE3944006DCFCC = {
+			isa = PBXGroup;
+			children = (
+				04F7333D1C03108F00EA1A1D /* CustomTableViewCell */,
+				04F7333C1C02386500EA1A1D /* WebServicesList */,
+				04F7333B1C02380F00EA1A1D /* ActvitiIncicater */,
+				04F733371C02378C00EA1A1D /* DataModel */,
+				8D9B8D331BFEF13F00743A4A /* Reachability */,
+				8D9B8D371BFEF34000743A4A /* TKMNetworking */,
+				8DA477A81BFE3A02006DCFCC /* Utility */,
+				8DA4777B1BFE3944006DCFCC /* TMKToyota */,
+				8DA477981BFE3944006DCFCC /* TMKToyotaTests */,
+				8DA4777A1BFE3944006DCFCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA4777A1BFE3944006DCFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA477791BFE3944006DCFCC /* TMKToyota.app */,
+				8DA477951BFE3944006DCFCC /* TMKToyotaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA4777B1BFE3944006DCFCC /* TMKToyota */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4777F1BFE3944006DCFCC /* AppDelegate.h */,
+				8DA477801BFE3944006DCFCC /* AppDelegate.m */,
+				8DA477821BFE3944006DCFCC /* ViewController.h */,
+				8DA477831BFE3944006DCFCC /* ViewController.m */,
+				8DA477AC1BFE55FA006DCFCC /* ContactToyotaViewController.h */,
+				8DA477AD1BFE55FA006DCFCC /* ContactToyotaViewController.m */,
+				8DA477AF1BFECDD1006DCFCC /* TKMDealearDetailViewController.h */,
+				8DA477B01BFECDD1006DCFCC /* TKMDealearDetailViewController.m */,
+				8DA477851BFE3944006DCFCC /* Main.storyboard */,
+				8DA4778B1BFE3944006DCFCC /* Assets.xcassets */,
+				8DA4778D1BFE3944006DCFCC /* LaunchScreen.storyboard */,
+				8DA477901BFE3944006DCFCC /* Info.plist */,
+				8DA4777C1BFE3944006DCFCC /* Supporting Files */,
+			);
+			path = TMKToyota;
+			sourceTree = "<group>";
+		};
+		8DA4777C1BFE3944006DCFCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8DA4777D1BFE3944006DCFCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8DA477981BFE3944006DCFCC /* TMKToyotaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA477991BFE3944006DCFCC /* TMKToyotaTests.m */,
+				8DA4779B1BFE3944006DCFCC /* Info.plist */,
+			);
+			path = TMKToyotaTests;
+			sourceTree = "<group>";
+		};
+		8DA477A81BFE3A02006DCFCC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				8D9B8D381BFEFBE100743A4A /* Uitility.h */,
+				8D9B8D391BFEFBE100743A4A /* Uitility.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA477781BFE3944006DCFCC /* TMKToyota */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA4779E1BFE3944006DCFCC /* Build configuration list for PBXNativeTarget "TMKToyota" */;
+			buildPhases = (
+				8DA477751BFE3944006DCFCC /* Sources */,
+				8DA477761BFE3944006DCFCC /* Frameworks */,
+				8DA477771BFE3944006DCFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TMKToyota;
+			productName = TMKToyota;
+			productReference = 8DA477791BFE3944006DCFCC /* TMKToyota.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA477941BFE3944006DCFCC /* TMKToyotaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA477A11BFE3944006DCFCC /* Build configuration list for PBXNativeTarget "TMKToyotaTests" */;
+			buildPhases = (
+				8DA477911BFE3944006DCFCC /* Sources */,
+				8DA477921BFE3944006DCFCC /* Frameworks */,
+				8DA477931BFE3944006DCFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA477971BFE3944006DCFCC /* PBXTargetDependency */,
+			);
+			name = TMKToyotaTests;
+			productName = TMKToyotaTests;
+			productReference = 8DA477951BFE3944006DCFCC /* TMKToyotaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA477711BFE3944006DCFCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rubiya Faniband";
+				TargetAttributes = {
+					8DA477781BFE3944006DCFCC = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					8DA477941BFE3944006DCFCC = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 8DA477781BFE3944006DCFCC;
+					};
+				};
+			};
+			buildConfigurationList = 8DA477741BFE3944006DCFCC /* Build configuration list for PBXProject "TMKToyota" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA477701BFE3944006DCFCC;
+			productRefGroup = 8DA4777A1BFE3944006DCFCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA477781BFE3944006DCFCC /* TMKToyota */,
+				8DA477941BFE3944006DCFCC /* TMKToyotaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA477771BFE3944006DCFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA4778F1BFE3944006DCFCC /* LaunchScreen.storyboard in Resources */,
+				8DA4778C1BFE3944006DCFCC /* Assets.xcassets in Resources */,
+				8DA477871BFE3944006DCFCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA477931BFE3944006DCFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA477751BFE3944006DCFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA477841BFE3944006DCFCC /* ViewController.m in Sources */,
+				8DA477811BFE3944006DCFCC /* AppDelegate.m in Sources */,
+				8DA4778A1BFE3944006DCFCC /* TMKToyota.xcdatamodeld in Sources */,
+				8DA477AE1BFE55FA006DCFCC /* ContactToyotaViewController.m in Sources */,
+				8DA477AB1BFE3A4C006DCFCC /* TMKWebserviceHandler.m in Sources */,
+				04F7333A1C02380500EA1A1D /* TKMActivitiIndicater.m in Sources */,
+				8D9B8D3A1BFEFBE100743A4A /* Uitility.m in Sources */,
+				8DA477B11BFECDD1006DCFCC /* TKMDealearDetailViewController.m in Sources */,
+				04F733361C01F9CC00EA1A1D /* DealersList.m in Sources */,
+				04F733401C0310CC00EA1A1D /* TKMDealerDetailCustomCell.m in Sources */,
+				04F733351C01F9CC00EA1A1D /* DealersList+CoreDataProperties.m in Sources */,
+				8D9B8D361BFEF33300743A4A /* Reachability.m in Sources */,
+				8DA4777E1BFE3944006DCFCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA477911BFE3944006DCFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA4779A1BFE3944006DCFCC /* TMKToyotaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA477971BFE3944006DCFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA477781BFE3944006DCFCC /* TMKToyota */;
+			targetProxy = 8DA477961BFE3944006DCFCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA477851BFE3944006DCFCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA477861BFE3944006DCFCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA4778D1BFE3944006DCFCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA4778E1BFE3944006DCFCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA4779C1BFE3944006DCFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8DA4779D1BFE3944006DCFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA4779F1BFE3944006DCFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMKToyota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruby.TMKToyota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8DA477A01BFE3944006DCFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TMKToyota/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruby.TMKToyota;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8DA477A21BFE3944006DCFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TMKToyotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruby.TMKToyotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMKToyota.app/TMKToyota";
+			};
+			name = Debug;
+		};
+		8DA477A31BFE3944006DCFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TMKToyotaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ruby.TMKToyotaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TMKToyota.app/TMKToyota";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA477741BFE3944006DCFCC /* Build configuration list for PBXProject "TMKToyota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA4779C1BFE3944006DCFCC /* Debug */,
+				8DA4779D1BFE3944006DCFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA4779E1BFE3944006DCFCC /* Build configuration list for PBXNativeTarget "TMKToyota" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA4779F1BFE3944006DCFCC /* Debug */,
+				8DA477A01BFE3944006DCFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA477A11BFE3944006DCFCC /* Build configuration list for PBXNativeTarget "TMKToyotaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA477A21BFE3944006DCFCC /* Debug */,
+				8DA477A31BFE3944006DCFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DA477881BFE3944006DCFCC /* TMKToyota.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DA477891BFE3944006DCFCC /* TMKToyota.xcdatamodel */,
+			);
+			currentVersion = 8DA477891BFE3944006DCFCC /* TMKToyota.xcdatamodel */;
+			name = TMKToyota.xcdatamodeld;
+			path = TMKToyota/TMKToyota.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DA477711BFE3944006DCFCC /* Project object */;
+}

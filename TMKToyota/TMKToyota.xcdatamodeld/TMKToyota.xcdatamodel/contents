@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Automatic">
+    <entity name="DealersList" representedClassName="DealersList" syncable="YES">
+        <attribute name="address1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="address4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cityCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerEM60Service" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerIsTFSINOutlet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerPrincipal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerServiceEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerUTrustAvailability" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dealerWorkingHours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facility" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="facilityCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fax" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pincode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceCenter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceEmergencyNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tzone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="zoneCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DealersList" positionX="-63" positionY="-18" width="128" height="495"/>
+    </elements>
+</model>
